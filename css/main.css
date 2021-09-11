@@ -1,0 +1,103 @@
+/* body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-image{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* .mb-2 {
+    color: black;
+    font-weight: 600;
+}
+.mb-0 {
+    color: black;
+}
+
+.display-2 {
+    color: black;
+    font-weight: 600;
+}
+
+h3 {
+    color: black;
+}
+
+.mb-3 {
+    color: black;
+    font-weight: 600;
+} */
+
+
+
+body {
+    color: #fff;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #a2acb1;
+    background-repeat: no-repeat
+}
+
+.card {
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 4px #9E9E9E;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.time-font {
+    font-size: 50px
+}
+
+.sm-font {
+    font-size: 18px
+}
+
+.med-font {
+    font-size: 28px
+}
+
+.large-font {
+    font-size: 60px
+}
+
+
+
+
+#form {
+    margin-top: 7%;
+    margin-left: 30%;
+}
+
+
+input[type=text] {
+    width: 290px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 15px;
+
+  }
+
+#submitButton {
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 12px;
+
+}
+
+#heading {
+    margin-top: 70px;
+
+}

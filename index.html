@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="shortcut icon" href="/images/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <title>Josh's Weather APP</title>
+</head>
+<body>
+<div class="container">
+    <div class="container" id="heading">
+        <h1>Josh's Weather App</h1>
+        <hr>
+        <p>Enter City Information to Add To Your List</p>
+    </div>
+    <div class="row" id="form">
+        <form name="testData" id="testDataForm">
+            <!-- <label for="city-weather">City: </label> -->
+            <input type="text" class="form-control" name="city" id="city" placeholder="Enter City Name">
+            <button type="submit" id="submitButton" class="btn btn-primary">Get Weather</button>
+        </form>
+    </div>
+    
+
+        <!-- Weather Data Table -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <section class="list-group city-list">
+
+                    </section>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
