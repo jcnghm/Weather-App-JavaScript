@@ -18,7 +18,6 @@ let clientId = "8db8b1168a333a492c2dcb0dc7c67c9d";
 const getData = async (query_city) => {
     let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query_city}&units=imperial&appid=${clientId}`)
     const data = await response.json();
-    console.log(data.main.feels_like)
     return data
 }
 
@@ -49,7 +48,6 @@ const create_list = ( name, temp, humidity, currentTime, currentDate, main ) => 
     document.querySelector(DOM_Elements.city_list).insertAdjacentHTML('beforeend', html)
 
 }
-
 
 // Function to Load Data and display HTML that includes date/time formatting
 
@@ -83,10 +81,4 @@ const load_data = async (info) => {
     let currentTime = timeformatter.format(date);
 
     create_list(weather.name, currentTemp, weather.main.humidity, currentTime, currentDate, weather.weather[0].main)
-}
-
-// Clear Current Data
-
-const clear_data = () => {
-    document.querySelector(DOM_Elements.city_list).innerHTML = '';
 }

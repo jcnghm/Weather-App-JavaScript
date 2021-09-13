@@ -1,37 +1,4 @@
-/* body {
-    font-family: 'Nunito', sans-serif;
-}
-
-.bg-image{
-    box-sizing: border-box;
-    font-size: 62.5%;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
-/* .mb-2 {
-    color: black;
-    font-weight: 600;
-}
-.mb-0 {
-    color: black;
-}
-
-.display-2 {
-    color: black;
-    font-weight: 600;
-}
-
-h3 {
-    color: black;
-}
-
-.mb-3 {
-    color: black;
-    font-weight: 600;
-} */
-
-
+/* Weather App Styles */
 
 body {
     color: #fff;
@@ -68,14 +35,10 @@ body {
     font-size: 60px
 }
 
-
-
-
 #form {
     margin-top: 7%;
     margin-left: 30%;
 }
-
 
 input[type=text] {
     width: 290px;
